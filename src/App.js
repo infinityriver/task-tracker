@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
           <div className='app-wrapper-content'>
             <Routes>
-              <Route path='/' element={<TasksUserContainer />} />
+              <Route path='/infinityriver/task-tracker.git' element={<TasksUserContainer />} />
               <Route path='/Admin' element={<CreateTasksContainer />} />
             </Routes>
           </div>
